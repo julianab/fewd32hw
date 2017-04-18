@@ -1,0 +1,32 @@
+hr {
+	border-style: solid;
+	border: 5px 
+	color: #222222;
+}
+body {
+	background: #F6F6F6;
+	font-size: 18px;
+	line-height: 1.5;
+}
+p {
+	font-family: "Georgia", arial, helvetica; 
+	color: #05080C;
+}
+img {
+	float: right;
+	margin-left: 4px;
+	margin-right: 6px;
+	
+	/*text-align:center; 
+	line-height:1.2em; 
+	font-size:135%; 
+	font-weight:bold;">Xia</img*/
+}
+th {
+	background-color: #222222;
+	color: white;
+	table-layout: auto;
+}
+td {
+	background-color: #eeeeee;
+}
