@@ -1,0 +1,137 @@
+
+body {
+	color: #f0efef;
+	font-size: 26px;
+	line-height: 1.4;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-weight: 300;
+}
+.hero {
+	height: 700px;
+	background-image: url('file:///Users/juliana/Desktop/FEWD/fewd32hw/Week_02_Styling/04_layout/solution/relaxr/images/header_bg.jpg');
+	background-size: cover;
+	padding-top: 32px;
+}
+.logo a, .tagline {
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	margin: 120px 0 90px;
+	font-weight: 600;
+}
+.tagline {
+	font-size: 48px;
+}
+.logo a {
+	font-size: 40px;
+}
+.wrapper h1 {
+	color: #033048;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+.btn {
+	background-color: #f9e42e;
+	color: #033048;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: 800px;
+	padding: 12px 0;
+	width: 280px;
+	font-size: 28px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	font-weight: bold;
+}
+a:active, a:hover, a:any-link {
+	cursor: auto;
+}
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+.benefits {
+	background-color: white;
+	padding: 100px 0 80px;
+	color: #033048;
+}
+.benefits p {
+	width: 600px;
+	color: #606161;
+}
+.benefits ul {
+	list-style: disc;
+	margin: 30px 0 0 80px;
+	color: #606161;
+	width: 600px;
+}
+.testimonial {
+	background: url(../images/testimonial_bg.jpg) top center #071324;
+	background-size: cover;
+	padding: 70px 0 70px;
+	color: #fff;
+}
+.testimonial blockquote {
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+	width: 580px;
+	margin: 0 auto;
+}
+.author {
+	font-weight: 600;
+	font-style: normal;
+	display: block;
+}
+.ctaBox {
+	background-color: #f9e42e;
+	padding: 30px;
+	text-align: center;
+}
+.ctaBox a {
+	background-color: #033048;
+	color: white;
+	font-size: 24px;
+}
+footer {
+	font-size: 2em;
+	text-decoration: none;
+	text-align: center;
+	background-color: #121212;
+	padding-top: 65px;
+	padding-right: 0px;
+	padding-bottom: 45px;
+	padding-left: 0px;
+}
+footer li {
+	display: inline-block;
+	margin: 0 26px 75px;
+	list-style: none;
+}
+footer li a {
+	color: white;
+}
+footer ul {
+	padding: 0 0 0 40px;
+	margin: 0;
+}
+.fa-facebook-f {
+	content: "\f09a";
+}
+.fa-twitter {
+	content: "\f09b";
+}
+footer .logo {
+	color: #f9e42e;
+	margin-bottom: 68px;
+	font-size: 48px;
+	font-weight: bold;
+}
+.copyright {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+}
