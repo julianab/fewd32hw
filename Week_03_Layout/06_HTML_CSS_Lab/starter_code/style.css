@@ -13,11 +13,13 @@ strong {
 }
 .logo h1 a {
 	font-weight: bold;
+	font-style: oblique;
 	color: #42f483;
+	margin: 10px;
 }
 .nav li {
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 40px;
 	font-size: 25px;
 	font-family: 'Oswald';
 }
@@ -27,12 +29,11 @@ strong {
 .nav ul {
 	width: 850px;
 	float: right;
-	padding: 0;
 }
 .header {
 	background-color: black;
 	overflow: auto;
-	padding: 23px;
+	padding: 8px;
 }
 .logo {
 	margin: 0 auto;
@@ -64,7 +65,7 @@ strong {
 	height: 400px;
 }
 .box {
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(255,255,255,0.65);
 	width: 300px;
 	padding: 30px;
 	box-shadow: 0 0 30px #333;
@@ -75,12 +76,14 @@ strong {
 }
 .box h2 {
 	margin-top: 0;
+	color: #295b66;
 }
 .box a {
 	background-color: #42f483;
 	text-transform: uppercase;
 	color: black;
 	padding: 15px;
+	margin: 5px;
 	border-radius: 5px;
 	font-weight: bold;
 	font-family: 'Oswald', sans-serif;
@@ -90,3 +93,39 @@ strong {
     transition-property: box-shadow;
     transition-duration: 200ms;
 }
+.bottombox {
+    display: inline-flex;
+    background-color: rgba(255,255,255,0.95);
+    margin: 0 auto;
+    padding: 0 40px;
+    /*border-right: : solid lightgray 1px;  need to fix the overflow and sizing before this will work*/
+}
+.bottombox h2 {
+	color: #295b66;
+	margin: 1px;
+}
+.bottombox a {
+	background-color: #d0d4db;
+	text-transform: uppercase;
+	color: black;
+	padding: 15px;
+	margin: 15px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+    display: block;
+    text-align: center;
+    box-shadow: 0 -3px 0 rgba( 0, 0, 0, 0.2);
+    transition-property: box-shadow;
+    transition-duration: 200ms;
+    display: inline-flex;
+}
+footer {
+	background-color: black;
+	overflow: auto;
+	padding: 8px;
+}
+footer p {
+	color: white;
+}
+
