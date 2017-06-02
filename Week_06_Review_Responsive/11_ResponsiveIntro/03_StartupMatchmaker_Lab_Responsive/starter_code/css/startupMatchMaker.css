@@ -108,15 +108,15 @@ a {
     margin: 0;
     padding: 0;
     position: relative;
-    display:block;
+    display: block;
 }
 
 .responsiveTileGroupItem {
+    width: 50%;
     padding: 10px;
+    float: left;
     overflow: hidden;
 }
-
-
 
 
 .copyright {
@@ -124,4 +124,21 @@ a {
     color: white;
     background-color: black;
     padding: 20px;
+}
+
+/*desktop*/
+@media (min-width: 769px) {
+    .responsiveTileGroupItem {
+        width: 50%;
+        float: left;
+    }
+
+}
+
+/*mobile*/ 
+@media (max-width: 768px) {
+    .responsiveTileGroupItem {
+        width: 100%;
+        float: none;
+    }
 }

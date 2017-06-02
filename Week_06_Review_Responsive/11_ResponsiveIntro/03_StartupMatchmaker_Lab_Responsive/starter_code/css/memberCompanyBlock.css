@@ -1,6 +1,9 @@
 
 /* memberCompany */
 
+
+
+
 .memberCompany {
     position: relative;
     max-width: 100%;
@@ -84,4 +87,23 @@
     overflow: hidden;
     clear: both;
     padding-top: 20px;
+}
+@media (max-width: 768px){
+    .memberCompanyLogoHaus {
+        width: 100%;
+        float: none;
+    }
+    .memberCompanyLogoHaus > img{
+        max-width: 35%;
+        float: none;
+        margin: 0 auto;
+    }
+    .memberCompanySkills .memberCompanyLocation {
+        width: 100%;
+    }
+    .memberCompany {
+        margin-top: 10px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(100,100,100);
+}
 }
